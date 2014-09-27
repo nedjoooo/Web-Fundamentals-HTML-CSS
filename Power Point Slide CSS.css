@@ -1,0 +1,41 @@
+body {
+    background-image: url("background.png");
+    font-family: Calibri;
+}
+img {
+    width: 200px;
+    height: 70px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+h1 {
+    float: left;
+    color: #F3BE60;
+    margin-left: 50px;
+}
+h2 {
+    color: #FFFFFF;
+}
+#section {
+    clear: both;
+}
+ul {
+    margin-left: 50px;
+    list-style-type: square;
+    color: #F2B254
+}
+span {
+    color: #F3CD60;
+}
+div{
+    border: 2px solid #FFFFFF;
+    width: 80%;
+    height: 20%;
+    color: #FFFFFF;
+    background-color: #20201E;
+}
+strong{
+    font-size: 22px;
+    color: #FFFFFF;
+}
