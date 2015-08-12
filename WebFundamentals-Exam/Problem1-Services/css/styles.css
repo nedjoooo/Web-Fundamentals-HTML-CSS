@@ -1,0 +1,81 @@
+body, header, h1, p, section, article, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+body {
+    font-family: Open Sans, Helvetica, sans-serif;
+    background-color: #f0f0e8;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#wrapper header h1 {
+    font-family: OpenSans-ExtraBold;
+    font-size: 56px;
+    color: #009288;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#wrapper header p {
+    font-size: 32px;
+    color: #7f8287;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Section */
+
+#wrapper section article {
+    width: 220px;
+    display: inline-block;
+    border-left: 8px solid #f0f0e8;
+}
+
+#wrapper section article:hover {
+    background-color: #f6f6f5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 8px solid #009288;
+}
+
+#wrapper section p {
+    color: #7f8293;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#wrapper section article a {
+    text-decoration: none;
+}
+
+#wrapper section article a img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+#wrapper section article a h1 {
+    color: #7f8287;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#wrapper section article a p {
+    line-height: 30px;
+    font-size: 11px;
+    margin: 22px;
+}

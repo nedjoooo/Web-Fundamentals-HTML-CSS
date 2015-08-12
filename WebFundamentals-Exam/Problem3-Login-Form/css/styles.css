@@ -1,0 +1,168 @@
+body, div, main, header, section, article, p, form, h6, label, span, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Glyphicons-halflings-regular;
+    src: url("../fonts/glyphicons-halflings-regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v11/hhO8-q4hv9jbU4UQyl-u4vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+}
+
+#wrapper main section article.fire, #wrapper main section article.ok-circle div span , #wrapper main section form label span {
+    font-family: Glyphicons-halflings-regular;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../resources/background.png");
+}
+
+.left-to-right {
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, b22626, rgba(178, 38, 38, 0)) 1 100%;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 100px auto;
+}
+
+#wrapper main {
+    width: 750px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #333333;
+    padding: 10px 20px;
+}
+
+#wrapper main header {
+    background-color: #679966;
+}
+
+#wrapper main > header h1 {
+    font-family: Lobster;
+    text-align: center;
+    padding: 3px;
+    font-size: 26px;
+    color: #d7e5ee;
+}
+
+#wrapper main section {
+    width: 350px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#wrapper main section article {
+    width: 330px;
+    height: 100px;
+    text-align: center;
+    background-color: #232323;
+    padding: 10px;
+}
+
+#wrapper main section article:first-child {
+    border-bottom: 1px solid white;
+}
+
+#wrapper main section article.fire p {
+    font-size: 60px;
+    color: #d7e5ee;
+}
+
+#wrapper main section article.fire p:before {
+    content: '\e104';
+}
+
+#wrapper main section article.ok-circle div {
+    color: #d7e5ee;
+}
+
+#wrapper main section article.ok-circle div span {
+    font-size: 15px;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+
+#wrapper main section article.ok-circle div span {
+    font-size: 16px;
+}
+
+#wrapper main section article.ok-circle div span:before {
+    content: '\e089';
+    margin-right: 5px;
+}
+
+#wrapper main section form header {
+    background: transparent;
+}
+
+#wrapper main section form header h6 {
+    color: #d7e5ee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#wrapper main section form label {
+    display: block;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#wrapper main section form label:nth-of-type(2) {
+    margin-bottom: 14px;
+}
+
+#wrapper main section form label span {
+    background-color: #669866;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #555555;
+}
+
+#wrapper main section form label input[type="text"] {
+    height: 36px;
+    width: 300px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #66afe9;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#wrapper main section form label input[type="submit"] {
+    width: 336px;
+    border-radius: 5px;
+    border: none;
+    background-color: #669866;
+    vertical-align: middle;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.username:before {
+    content: '\e008';
+}
+
+.country:before {
+    content: '\e135';
+}

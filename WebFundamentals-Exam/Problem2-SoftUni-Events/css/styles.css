@@ -1,0 +1,178 @@
+body, div, header, a, h1, nav, ul ,li, section, article, img, p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ThisNight;
+    src: url("../fonts/ThisNight.ttf");
+}
+
+@font-face {
+    font-family: LDFComicSans;
+    src: url("../fonts/LDFComicSans.ttf");
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#wrapper > header {
+    font-family: ThisNight, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#wrapper header > div {
+    background-color: #234465;
+    padding: 20px;
+}
+
+#wrapper header a {
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper header a:hover {
+    color: #ff9c00;
+}
+
+#wrapper header a h1 {
+    font-size: 86px;
+}
+
+#wrapper header nav {
+    display: block;
+    margin: 20px auto;
+}
+
+#wrapper header nav ul {
+    list-style-type: none;
+}
+
+#wrapper header nav ul li {
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+#wrapper header nav ul li:nth-of-type(3) {
+    background-color: #234465;
+}
+
+#wrapper header nav ul li a {
+    text-decoration: none;
+    color: #234465;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+#wrapper header nav ul li a:hover {
+    color: #ff9c00;
+}
+
+#wrapper header nav ul li:nth-of-type(3) a {
+    color: white;
+}
+
+#wrapper header nav ul li:nth-of-type(3) a:hover {
+    color: #ff9c00;
+}
+
+/* Section */
+
+#wrapper section {
+    font-family: LDFComicSans, Arial, sans-serif;
+    width: 720px;
+    margin: 0 auto;
+}
+
+#wrapper section article {
+    width: 300px;
+    height: 260px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #f0f2f5;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 8px #405c79;
+}
+
+#wrapper section article header {
+    background-color: #234465;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+#wrapper section article header h1 {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    text-shadow: 5px 5px 6px #a97927;
+}
+
+#wrapper section article a img {
+    width: 300px;
+}
+
+#wrapper section article p {
+    color: #271a26;
+    font-size: 13px;
+}
+
+#wrapper section article p:last-child {
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Footer */
+
+#wrapper footer {
+    font-family: LDFComicSans, Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#wrapper footer nav {
+    background-color: #234465;
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 20px;
+}
+
+#wrapper footer nav ul {
+    list-style-type: none;
+}
+
+#wrapper footer nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#wrapper footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#wrapper footer nav ul li a:hover {
+    color: #ff9c00;
+}
+
+#wrapper footer div {
+    background-color: #234465;
+    text-align: center;
+    padding: 20px;
+}
+
+#wrapper footer div a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#wrapper footer div a:hover {
+    color: #ff9c00;
+}
